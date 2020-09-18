@@ -1,0 +1,67 @@
+﻿body
+{
+	background-color:#ffffff;
+	background-image:url('kuvat/gradient2.png');
+	background-repeat:repeat-x;
+	background-attachment: fixed;
+}
+p
+{
+	width: 50%;
+	margin-left: 230px;	
+}
+h1
+{
+	position: relative;
+	clip: rect(auto, auto, auto, auto); 
+	background-attachment: fixed; top: 10px; left: 230px;
+	padding: 5px;
+	width: 50%;
+	font-size:150%;
+}
+h2
+{
+	margin-left: 230px;
+}
+#logo h1
+{
+	padding: 5px;
+	width: 50%;
+	font-size:250%;
+}
+#navikko ul
+{
+list-style-type:none;
+margin:0;
+padding:0;
+padding-top:6px;
+padding-bottom:6px;
+margin-left: 230px;
+}
+#navikko li
+{
+display:inline;
+}
+#navikko a:link,#navikko a:visited
+{
+font-weight:bold;
+color:#FFFFFF;
+background-color:#9ec3ff;
+text-align:center;
+padding:6px;
+text-decoration:none;
+text-transform:uppercase;
+}
+#navikko a:hover,#navikko a:active
+{
+background-color:#5e9bff;
+}
+#alanavikko li
+{
+display:inline;
+visibility:hidden;
+}
+img
+{
+	margin-left: 240px;
+}
