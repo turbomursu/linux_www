@@ -1,0 +1,25 @@
+body
+{
+	background-color:#ffffff;
+	background-image:url('kuvat/gradient2.png');
+	background-repeat:repeat-x;
+	background-attachment: fixed;
+}
+p
+{
+	width: 50%;
+	margin-left: 230px;	
+}
+h1
+{
+	position: relative;
+	clip: rect(auto, auto, auto, auto); 
+	background-attachment: fixed; top: 10px; left: 230px;
+	padding: 5px;
+	width: 50%;
+	font-size:150%;
+}
+h2
+{
+	margin-left: 230px;
+}
